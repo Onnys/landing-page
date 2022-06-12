@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2937;
+  padding: 16px 100px;
+}
+footer {
+  background: #1f2937;
+}
+.leftlinks > div > a {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.rigthlinks > ul > li > a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+}
+.section1 {
+  display: flex;
+  background: #1f2937;
+  padding: 16px 100px;
+  justify-content: space-between;
+}
+.leftcard {
+  color: #f9faf8;
+  font-size: 24px;
+  padding-right: 16px;
+}
+.rigthcard {
+  font-size: 18px;
+}
+button {
+  background: dodgerblue;
+  color: #f9faf8;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 100px;
+}
+.imgdesc {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  background: lightgrey;
+  height: 200px;
+}
+#quote {
+  font-size: 18px;
+}
+.section4 {
+  background:dodgerblue ;
+  margin: 100px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer{
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
