@@ -53,31 +53,39 @@ button {
   color: #f9faf8;
   padding-left: 8px;
   padding-right: 8px;
+  box-shadow: none;
 }
 .section2 {
   display: flex;
+  padding: 50px 100px;
   flex-direction: column;
-  padding: 16px 100px;
+}
+.section2-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imgdesc {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 .section3 {
   display: flex;
   justify-content: center;
  align-items: center;
   background: lightgrey;
-  height: 200px;
+padding: 100px 100px;
 }
 #quote {
   font-size: 18px;
-}
+  padding-left: 100px;
+  padding-right: 100px;
+  }
 .section4 {
   background:dodgerblue ;
   margin: 100px;
-  padding: 16px;
+  padding-right: 50px;
+  padding-left: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,4 +96,14 @@ footer{
   justify-content: center;
   align-items: center;
   color: #f9faf8;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imgdesc img {
+  height: 100px;
+  border-radius: 4px;
 }
